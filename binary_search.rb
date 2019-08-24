@@ -1,6 +1,8 @@
+# Returns the index of an item in a sorted array.
+# Performance is O(log(n)).
+
 module BinarySearch
-  def self.search(list, item)
-    list  = list.sort
+  def self.call(list, item)
     start = 0
     last  = list.size - 1
 
